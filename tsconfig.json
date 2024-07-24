@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",       // Carpeta de salida para archivos JavaScript compilados
+      "rootDir": "src",       // Carpeta de origen para archivos TypeScript
+      "target": "es6",          // Versión de JavaScript de destino
+      "module": "Commonjs",     // Sistema de módulos
+      "strict": true,           // Habilita todas las comprobaciones de tipo estricto
+      "esModuleInterop": true,   // Habilita interoperabilidad entre ES6 y CommonJS
+    },
+    "include": [
+      "src/**/*.ts"             // Incluye todos los archivos TypeScript en la carpeta src
+    ]
+  }

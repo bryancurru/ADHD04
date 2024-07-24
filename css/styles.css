@@ -1,0 +1,21 @@
+.backgrnd{
+    background-color: gray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.example {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    opacity: 0.6;
+}
